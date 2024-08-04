@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    background-color: rgb(118, 29, 118);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    text-align: center;
+}
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #000000;
+    border: 10px solid #0c9383;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #8191a1;
+    color: rgb(20, 14, 1);
+    border-radius: 10px;
+    border-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn:hover {
+    background-color: rgba(70, 35, 140, 0.623);
+}
